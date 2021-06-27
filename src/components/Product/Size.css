@@ -1,0 +1,108 @@
+.sizeTitle {
+  /* Size */
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 1004px;
+  top: 180px;
+
+  /* font-family: IBM Plex Sans; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+  /* identical to box height, or 200% */
+
+  /* Body */
+  color: #1d1d1d;
+}
+
+.sizeSmall {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+
+  position: absolute;
+  width: 68px;
+  height: 40px;
+  left: 1004px;
+  top: 216px;
+
+  background: #f1f1f1;
+  border-radius: 38px;
+}
+
+.sizeSmall ::selection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+
+  position: absolute;
+  width: 68px;
+  height: 40px;
+  left: 1004px;
+  top: 216px;
+
+  background: #1d1d1d;
+  border-radius: 38px;
+}
+
+.sizeMedium {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+
+  position: absolute;
+  width: 83px;
+  height: 40px;
+  left: 1080px;
+  top: 216px;
+
+  background: #f1f1f1;
+  border-radius: 38px;
+}
+
+.sizeLarge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+
+  position: absolute;
+  width: 67px;
+  height: 40px;
+  left: 1171px;
+  top: 216px;
+
+  background: #f1f1f1;
+  border-radius: 38px;
+}
+
+.sizeExtraLarge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+
+  position: absolute;
+  width: 103px;
+  height: 40px;
+  left: 1246px;
+  top: 216px;
+
+  background: #f1f1f1;
+  border-radius: 38px;
+}
+
+.lineStrike {
+  position: absolute;
+  width: 376px;
+  height: 0px;
+  left: 1004px;
+  top: 276px;
+
+  border: 1px solid #dfdfdf;
+}

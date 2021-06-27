@@ -1,0 +1,52 @@
+.colourTitle {
+  position: absolute;
+  width: 44px;
+  height: 28px;
+  left: 1004px;
+  top: 296px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+
+  color: #1d1d1d;
+}
+
+.colourRed {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 1020px;
+  top: 370px;
+
+  background: #ac5941;
+  transform: rotate(45deg);
+  position: absolute;
+  border-radius: 50%;
+}
+
+.colourGreen {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 1056px;
+  top: 370px;
+
+  background: #419fac;
+  transform: rotate(45deg);
+  position: absolute;
+  border-radius: 50%;
+}
+.colourBlue {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 1092px;
+  top: 370px;
+
+  background: #416cac;
+  transform: rotate(45deg);
+  position: absolute;
+  border-radius: 50%;
+}

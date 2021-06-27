@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Card, Button } from "react-bootstrap";
+import "./App.css";
+import ImgCard from "./components/Product/ImgCard.js";
+import Title from "./components/Product/Title.js";
+import Size from "./components/Product/Size.js";
+import Colour from "./components/Product/Colour.js";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Card
+        className="mainContainer"
+        style={{ width: "960px", height: "735px" }}
+      >
+        <Card.Header>
+          <Title />
+          <Size />
+          <Colour />
+          <Button className="cartAdd">Add to Cart</Button>
+        </Card.Header>
+        <Card.Body>
+          <ImgCard />
+        </Card.Body>
+      </Card>
     </div>
   );
 }
