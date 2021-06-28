@@ -19,8 +19,9 @@ function ImgCard() {
       </div> */}
       <div className="container">
         <img className="shoeImage" src={Rectangle23} alt="Shoe" />
-        <div className="zoomIn"></div>
-        <img className="zoom" src={Vector} alt="zoom" />
+        <div className="zoomIn">
+          <img className="zoom" src={Vector} alt="zoom" />
+        </div>
       </div>
       {/* <div className="container">
         <img className="shoeImage" src={Rectangle21} alt="Shoe" />

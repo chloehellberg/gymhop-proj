@@ -46,21 +46,23 @@
 }
 
 .zoom {
-  border: 0;
+  /* border: 0; */
   position: absolute;
   top: 35px;
   right: 35px;
+  border-radius: 1580px;
+  background: white;
 }
 
 .container {
-  border: 0;
-  float: left;
   position: relative;
 }
 
-.zoomIn {
-  border: none;
-  padding: 15px;
-  border-radius: 38px;
+/* .zoomIn {
+  border: 1px solid red;
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  border-radius: 380px;
   background: white;
-}
+} */
