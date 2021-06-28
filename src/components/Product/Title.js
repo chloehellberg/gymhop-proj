@@ -3,10 +3,10 @@ import "./Title.css";
 
 function Title() {
   return (
-    <div className="titleRender">
-      <h2 className="title">Red Flyknit Trainers</h2>
-      <h6 className="price">$190.00</h6>
-    </div>
+    <>
+      <h2>Red Flyknit Trainers</h2>
+      <p className="price">$190.00</p>
+    </>
   );
 }
 

@@ -1,0 +1,10 @@
+.sizeButton {
+  border: none;
+  padding: 15px;
+  border-radius: 38px;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}

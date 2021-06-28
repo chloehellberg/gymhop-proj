@@ -1,0 +1,29 @@
+.colourButton {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 4px;
+  border: none;
+  transform: rotate(135deg);
+  border: 1px solid lightgray;
+}
+
+.activeColour {
+  border: 1px solid black;
+  /* padding: 0.25em; */
+  background: content-box;
+}
+
+.red {
+  background: linear-gradient(#ac5941 50%, #8a3d28 50%) content-box;
+  padding: 0.25em;
+}
+
+.green {
+  background: linear-gradient(#419fac 50%, #1f737e 50%) content-box;
+  padding: 0.25em;
+}
+.blue {
+  background: linear-gradient(#416cac 50%, #1f2e7e 50%) content-box;
+  padding: 0.25em;
+}

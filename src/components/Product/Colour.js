@@ -1,17 +1,31 @@
-import React from "react";
-import { Card, Button } from "react-bootstrap";
+import React, { useState } from "react";
+import { ColourButton } from "../ColourButton/ColourButton";
 import "./Colour.css";
 
 function Colour() {
+  const [selectedColour, setSelectedColour] = useState("");
+
   return (
-    <div className="colourRender">
-      <h6 className="colourTitle">Colour</h6>
-      <div className="colourButtons">
-        <Button className="colourRed"></Button>
-        <Button className="colourGreen"></Button>
-        <Button className="colourBlue"></Button>
+    <>
+      <h4 className="colourTitle">Colour</h4>
+      <div className="colourContainer">
+        <ColourButton
+          color="red"
+          isActive={selectedColour === "red"}
+          onClick={() => setSelectedColour("red")}
+        />
+        <ColourButton
+          color="green"
+          isActive={selectedColour === "green"}
+          onClick={() => setSelectedColour("green")}
+        />
+        <ColourButton
+          color="blue"
+          isActive={selectedColour === "blue"}
+          onClick={() => setSelectedColour("blue")}
+        />
       </div>
-    </div>
+    </>
   );
 }
 

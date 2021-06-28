@@ -1,7 +1,66 @@
 .shoeImage {
+  margin: 10px;
+}
+
+/* .imgRender:hover .zoomImage {
+  opacity: 1;
+}
+
+.zoomImage {
+  opacity: 0;
+}
+
+.zoomCircle {
+  opacity: 0;
+}
+
+.imgRender:hover .zoomCircle {
+  opacity: 1;
+}
+
+.zoomImage {
+  border: 0;
   position: absolute;
-  width: 904px;
-  height: 1074px;
-  left: 40px;
-  top: 39px;
+  top: 35px;
+  right: 35px;
+}
+.zoomCircle {
+  border: 0;
+  position: absolute;
+  top: 35px;
+  right: 35px;
+}
+
+.container {
+  border: 0;
+  float: left;
+  position: relative;
+} */
+
+.imgRender:hover .zoomIn {
+  opacity: 1;
+}
+
+.zoomIn {
+  opacity: 0;
+}
+
+.zoom {
+  border: 0;
+  position: absolute;
+  top: 35px;
+  right: 35px;
+}
+
+.container {
+  border: 0;
+  float: left;
+  position: relative;
+}
+
+.zoomIn {
+  border: none;
+  padding: 15px;
+  border-radius: 38px;
+  background: white;
 }

@@ -1,21 +1,41 @@
-import React from "react";
-import { Button } from "react-bootstrap";
+import React, { useState } from "react";
+import { SizeButton } from "../SizeButton/SizeButton";
 import "./Size.css";
 
 function Size() {
+  const [selectedSize, setSelectedSize] = useState("");
+
   return (
-    <div className="sizeRender">
-      <h3 className="sizeTitle">Size</h3>
-      <div className="sizeButtons">
-        <Button defaultActiveKey="#first" className="sizeSmall">
+    <>
+      <h4 className="sizeTitle">Size</h4>
+      <div className="buttonContainer">
+        <SizeButton
+          isActive={selectedSize === "small"}
+          onClick={() => setSelectedSize("small")}
+        >
           Small
-        </Button>
-        <Button className="sizeMedium">Medium</Button>
-        <Button className="sizeLarge">Large</Button>
-        <Button className="sizeExtraLarge">Extra Large</Button>
+        </SizeButton>
+        <SizeButton
+          isActive={selectedSize === "medium"}
+          onClick={() => setSelectedSize("medium")}
+        >
+          Medium
+        </SizeButton>
+        <SizeButton
+          isActive={selectedSize === "large"}
+          onClick={() => setSelectedSize("large")}
+        >
+          Large
+        </SizeButton>
+        <SizeButton
+          isActive={selectedSize === "xl"}
+          onClick={() => setSelectedSize("xl")}
+        >
+          Extra Large
+        </SizeButton>
       </div>
-      <div className="lineStrike"></div>
-    </div>
+      <hr className="lineStrike" />
+    </>
   );
 }
 

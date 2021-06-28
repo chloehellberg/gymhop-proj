@@ -1,18 +1,26 @@
-.Card {
-  position: relative;
-  width: 1440px;
-  height: 3348px;
-  background: #ffffff;
+.App {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.productControls {
+  width: 350px;
+}
+
+.rightColumn {
+  flex: 1;
+  margin-left: 40px;
+}
+
+.leftColumn {
+  flex: 1;
 }
 
 .cartAdd {
-  position: absolute;
-  width: 376px;
-  height: 48px;
-  left: 1004px;
-  top: 404px;
   background: #ffffff;
   border: 1px solid #dfdfdf;
-  box-sizing: border-box;
   border-radius: 28px;
+  width: 100%;
+  padding: 15px;
 }

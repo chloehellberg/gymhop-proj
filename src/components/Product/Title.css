@@ -1,37 +1,4 @@
-.title {
-  position: absolute;
-  width: 226px;
-  height: 32px;
-  left: 1004px;
-  top: 80px;
-
-  /* font-family: "IBM Plex Sans"; */
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 32px;
-  display: flex;
-  align-items: center;
-  color: #1d1d1d;
-}
-
 .price {
-  position: absolute;
-  width: 55px;
-  height: 24px;
-  left: 1004px;
-  top: 116px;
-
-  /* p (baseline) */
-
-  /* font-family: IBM Plex Sans; */
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  /* identical to box height, or 171% */
-
-  /* Body Black */
-
-  color: #1d1d1d;
+  margin-top: -10px;
 }
