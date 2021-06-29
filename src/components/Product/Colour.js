@@ -9,21 +9,27 @@ function Colour() {
     <>
       <h4 className="colourTitle">Colour</h4>
       <div className="colourContainer">
-        <ColourButton
-          color="red"
-          isActive={selectedColour === "red"}
-          onClick={() => setSelectedColour("red")}
-        />
-        <ColourButton
-          color="green"
-          isActive={selectedColour === "green"}
-          onClick={() => setSelectedColour("green")}
-        />
-        <ColourButton
-          color="blue"
-          isActive={selectedColour === "blue"}
-          onClick={() => setSelectedColour("blue")}
-        />
+        <a href="#redProd">
+          <ColourButton
+            color="red"
+            isActive={selectedColour === "red"}
+            onClick={() => setSelectedColour("red")}
+          />
+        </a>
+        <a href="#greenProd">
+          <ColourButton
+            color="green"
+            isActive={selectedColour === "green"}
+            onClick={() => setSelectedColour("green")}
+          />
+        </a>
+        <a href="#blueProd">
+          <ColourButton
+            color="blue"
+            isActive={selectedColour === "blue"}
+            onClick={() => setSelectedColour("blue")}
+          />
+        </a>
       </div>
     </>
   );
